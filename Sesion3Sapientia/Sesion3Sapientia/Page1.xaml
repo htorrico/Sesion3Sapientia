@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sesion3Sapientia.Page1"
+             xmlns:local="clr-namespace:Sesion3Sapientia"
+             xmlns:local2="clr-namespace:Sesion3Sapientia.Customs"
+             >
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Style="{StaticResource buttonRedStyle}" Text="Mi primer botón"></Button>
+            <Button   Text="Mi segundo botón"></Button>
+            <Button   Text="Mi tercer botón"></Button>
+            <Button Style="{StaticResource buttonRedStyle}"  Text="Mi cuarto botón"></Button>
+            <local:LabelCustom Text="Label Personalizado"/>
+            <local2:ButtonCustom Text="Button Personalizado"/>
+            <Label Text="Mi Primer Label" BackgroundColor="Green"  TextColor="Aqua"/>
+            <Label Text="Mi Segundo Label"/>
+            <Label Text="Mi Tercer Label"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

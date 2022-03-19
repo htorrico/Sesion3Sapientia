@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sesion3Sapientia.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="buttonRedStyle" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="BLUE"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontSize" Value="Large"/>
+            </Style>
+            <Style TargetType="Label">
+                <Setter Property="BackgroundColor" Value="Red"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontSize" Value="Large"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout>
+        <Button Style="{StaticResource buttonRedStyle}" Text="Mi primer botón"></Button>
+        <Button Style="{StaticResource buttonRedStyle}" TextColor="White" Text="Mi segundo botón"></Button>
+        <Button Style="{StaticResource buttonRedStyle}" TextColor="White" Text="Mi tercer botón"></Button>
+        <Button Style="{StaticResource buttonRedStyle}" TextColor="White" Text="Mi cuarto botón"></Button>
+        <Label Text="Mi Primer Label"/>
+        <Label Text="Mi Segundo Label"/>
+        <Label Text="Mi Tercer Label"/>
+    </StackLayout>
+
+</ContentPage>
