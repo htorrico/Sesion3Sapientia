@@ -10,7 +10,7 @@ namespace Sesion3Sapientia
         {
             InitializeComponent();
 
-            MainPage = new Page2();
+            MainPage = new Page3();
             
         }
 

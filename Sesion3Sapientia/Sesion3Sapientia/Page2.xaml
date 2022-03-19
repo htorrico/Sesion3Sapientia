@@ -33,6 +33,7 @@
         <StackLayout>
             <Label  Style="{StaticResource LabelStyle}" Text="Prueba Label"/>
             <Button  Style="{StaticResource ButtonStyle}" Text="Prueba Button"/>
+            <Button Text="Tomar Foto" Clicked="Button_Clicked"> </Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

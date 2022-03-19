@@ -11,18 +11,16 @@ using Xamarin.Forms.Xaml;
 namespace Sesion3Sapientia
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page2 : ContentPage
+    public partial class Page3 : ContentPage
     {
-        public Page2()
+        public Page3()
         {
             InitializeComponent();
         }
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            //DependencyService.Get<ITextToSpeech>().
-            DependencyService.Get<ICamara>().TomarFoto();
-
+            DependencyService.Get<ITextToSpeech>().Speak(txtTexto.Text);
         }
     }
 }
